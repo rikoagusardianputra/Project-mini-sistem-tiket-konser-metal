@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 5rem;
+}
+.container-counter {
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.container-button a {
+    background-color: rgb(8, 65, 65);
+    padding: 1rem 4rem ;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 1.4rem;
+    color: white;
+    font-weight: bold;
+    transition: all 0.5 ease;
+}
+
+.container-button a:hover {
+    background-color: rgb(26, 142, 103);
+}
+
+
