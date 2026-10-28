@@ -1,0 +1,36 @@
+.red {
+    color: red;
+}
+
+.container-read-more {
+    background-color: aquamarine;
+    padding: 5rem 2rem;
+    border-radius: 20px;
+    height: 100px;
+}
+
+.isi-read-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.hidden-teks {
+    display: none;
+}
+
+.reveal-teks {
+    display: block;
+}
+
+#btn-read-more {
+    border-style: none;
+    padding: 1rem 1rem;
+    font-size: medium;
+    background-color: tomato;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}

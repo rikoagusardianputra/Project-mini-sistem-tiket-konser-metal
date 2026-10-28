@@ -1,8 +1,8 @@
 // DATA PENONTON
 const dataPenonton = {
     nama : 'Oliver Sykes',
-    umur : 17,
-    tiket : 'REGULER'
+    umur : 18,
+    tiket : 'VIP'
 };
 
 // DATA LAGU
