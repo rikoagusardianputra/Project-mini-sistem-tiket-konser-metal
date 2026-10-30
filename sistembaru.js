@@ -73,21 +73,17 @@ function cekKelulusan (nilai, kehadiran) {
 }; 
 
 function cariNama(cariNama) {
-    for(let i = 0; i < dataSiswa.length; i++) {
-        let siswa = dataSiswa[i];
+     for(let i = 0; i < dataSiswa.length; i++) {
+         let siswa = dataSiswa[i];
 
-        let siswaStatus = cekKelulusan(siswa.nilai, siswa.kehadiran);
-        if(siswa.nama === cariNama) {
-            console.log(`Nama  : ${siswa.nama}`);
-            console.log(`NIK  : ${siswa.NIK}`);
-            console.log(`Kehadiran  : ${siswa.kehadiran}`);
-            console.log(`Status  : ${siswaStatus}`);
-            return;
-        }
-    }
+         let siswaStatus = cekKelulusan(siswa.nilai, siswa.kehadiran);
+         if(siswa.nama === cariNama) {
+             console.log(`Nama  : ${siswa.nama}`);
+             console.log(`NIK  : ${siswa.NIK}`);
+             console.log(`Kehadiran  : ${siswa.kehadiran}`);
+             console.log(`Status  : ${siswaStatus}`);
+             return;
+         }
+     }
     console.log('Data tidak ada')
-}
-
-cariNama('fernio');
-
-
+};
